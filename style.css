@@ -1,0 +1,184 @@
+body {
+    background-color: black;
+    color: darkmagenta;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+#mainDiv {
+    width: 50%;
+    margin: 0 auto;
+    border-left: 1px solid rgba(255, 0, 255, 0.4);
+    border-right: 1px solid rgba(255, 0, 255, 0.4);
+    min-height: 100vh;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid darkmagenta;
+}
+
+
+.logoSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: darkmagenta;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: magenta;
+}
+
+main {
+    flex: 1;
+    padding: 40px 60px; 
+    line-height: 1.6;   
+}
+footer
+{
+    font-style: italic;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+#cvHeader {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+#cvPhoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid darkmagenta;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.3);
+}
+
+#cvIntro h2 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.cvSection {
+    margin-bottom: 30px;
+}
+
+.cvSection h3 {
+    color: magenta;
+    border-bottom: 1px solid darkmagenta;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cvSection ul {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.gallery {
+align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 15px;
+  padding: 30px 40px; 
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.gallery-item {
+     border-radius: 8px;
+  border: 1px solid darkmagenta;
+ 
+  overflow: hidden;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+  border-color: magenta;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+ 
+}
+
+
+footer
+{
+   margin-left: 10px;
+}
+
+footer a
+{
+    color: magenta;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: magenta;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid darkmagenta;
+    background-color: #111;
+    color: darkmagenta;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+button {
+     cursor: pointer;
+    background-color: darkmagenta;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: magenta;
+}
